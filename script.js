@@ -1,7 +1,10 @@
 function firstChar(text) {
   // your code here
 	let text1=text.trim();
-	return text1.charAt(0);
+	if(text1.length>0){
+		return text1.charAt(0);
+	}
+	return ''
 }
 
 // Do not change the code below
